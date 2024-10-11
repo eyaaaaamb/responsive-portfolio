@@ -1,0 +1,145 @@
+*{
+    font-family:'pacifico',cursive;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+.header{
+    background: linear-gradient(180deg,  #FFFFFF,#FFCDEA);
+    width: 100%;
+    
+    border: none;
+    padding-top:50px;
+    padding-bottom:250px;
+    display: flex;
+   justify-content: space-around;
+  
+
+  
+
+
+}
+.titre{
+   padding: 80px;
+  
+  
+  
+
+}
+.titre h2{
+    color:#86469C;
+    font-size: 70Px;
+  
+}
+.titre h1{
+    color:#BC7FCD;
+    font-size: 110Px;
+
+  
+}
+.header img{
+    width: 400Px;
+    border-radius: 40%;
+    object-fit: cover;
+    
+}
+.header{
+    background: linear-gradient(180deg,  #FFFFFF,#FFCDEA);
+    width: 100%;
+    
+    border: none;
+    padding-top:50px;
+    padding-bottom:150px;
+    display: flex;
+   justify-content: space-around;
+}
+.who{
+    background-color: #FFCDEA;
+    padding-bottom: 200PX;
+    
+    padding-left: 50px;
+
+    display: flexbox;
+
+    
+
+  
+    
+}
+
+.ha{
+    text-align: center;
+  
+
+}
+.who{
+    background-color: #FFCDEA;
+    padding-bottom: 200PX;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flexbox;
+}
+.who h1{
+    color: white;
+    font-size: 80Px;
+padding-bottom: 20Px;}
+
+.who ul{
+    color: #BC7FCD;
+    font-size: 30Px;
+    list-style:none;
+    text-align: center;
+  
+
+}
+.important{
+    color:#86469C;
+}
+.who li{
+    margin-bottom: 10PX;
+}
+.footer{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media((max-width:900px ))
+{
+    img{
+        display: none;
+    }
+    .titre h2{
+        color:#86469C;
+        font-size: 40Px;
+      
+    }
+    .titre h1{
+        color:#BC7FCD;
+        font-size: 60Px;
+    
+      
+    }
+    .who h1{
+        color: white;
+        font-size: 50Px;
+    padding-bottom: 10Px;}
+    
+    .who ul{
+        color: #BC7FCD;
+        font-size: 20Px;
+        list-style:none;
+        text-align: center;
+      
+    
+    }
+    
+    .who li{
+        margin-bottom: 5PX;
+    }
+    
+}
